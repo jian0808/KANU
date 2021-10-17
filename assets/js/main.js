@@ -55,12 +55,7 @@ $('.v01').click(function(){
 $('.v02').click(function(){
     $('.video02').fadeIn();
 });
-$('.v03').click(function(){
-    $('.video03').fadeIn();
-});
-$('.v04').click(function(){
-    $('.video04').fadeIn();
-});
 $('.xi-close').click(function(){
     $('.modal-pop').fadeOut();
 });
+
