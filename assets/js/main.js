@@ -1,5 +1,10 @@
- // section02
- $('.tab01').click(function(){
+// header
+$('.xi-bars').click(function(){
+    $('.gnb').slideToggle();
+});
+
+// section02
+$('.tab01').click(function(){
     $('.americano').css('display','block');
     $('.latte').css('display','none');
     $('.tab01').css('border-bottom','3px solid #e50a18');
@@ -17,7 +22,7 @@ $('.americano').slick({
     slidesToShow: 4,
     slidesToScroll: 1,
     responsive: [
-        {breakpoint: 600,
+        {breakpoint: 768,
         settings: {
             slidesToShow: 2,
             slidesToScroll: 1
@@ -28,7 +33,7 @@ $('.latte').slick({
     slidesToShow: 4,
     slidesToScroll: 1,
     responsive: [
-        {breakpoint: 600,
+        {breakpoint: 768,
         settings: {
             slidesToShow: 2,
             slidesToScroll: 1
