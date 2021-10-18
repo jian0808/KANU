@@ -78,84 +78,8 @@ nav img{
     padding: 150px 0;
     background-color: #F4F1E6;
 }
-.americano{
+.swiper{
     position: relative;
-}
-.americano .slick-prev{
-    position: absolute;
-    left: 0;
-    top: 35%;
-    z-index: 99;
-    font-size: 0;
-    border: none;
-    background-color: transparent;
-    cursor: pointer;
-}
-.americano .slick-prev::before{
-    content: "\e93d";
-    font-family: 'xeicon';
-    font-size: 3rem;
-}
-.americano .slick-next{
-    position: absolute;
-    right: 0;
-    top: 35%;
-    z-index: 99;
-    font-size: 0;
-    border: none;
-    background-color: transparent;
-    cursor: pointer;
-}
-.americano .slick-next::before{
-    content: "\e940";
-    font-family: 'xeicon';
-    font-size: 3rem;
-}
-.latte{    
-    position: relative;
-    display: none;
-}
-.latte .slick-prev{
-    position: absolute;
-    left: 0;
-    top: 35%;
-    z-index: 99;
-    font-size: 0;
-    border: none;
-    background-color: transparent;
-    cursor: pointer;
-}
-.latte .slick-prev::before{
-    content: "\e93d";
-    font-family: 'xeicon';
-    font-size: 3rem;
-}
-.latte .slick-next{
-    position: absolute;
-    right: 0;
-    top: 35%;
-    z-index: 99;
-    font-size: 0;
-    border: none;
-    background-color: transparent;
-    cursor: pointer;
-}
-.latte .slick-next::before{
-    content: "\e940";
-    font-family: 'xeicon';
-    font-size: 3rem;
-}
-.product-main{
-    background-color: #fefefe;
-    overflow: hidden;
-    border-radius: 30px;
-    cursor: pointer;
-}
-.product-main img{
-    transition: all .3s;
-}
-.product-main img:hover{
-    transform: scale(1.2);
 }
 .section02 .tab{
     margin: 40px 0px 30px;
@@ -179,6 +103,21 @@ nav img{
 .pd-padding{
     padding: 10px;
     box-sizing: border-box;
+}
+.latte{    
+    display: none;
+}
+.product-main{
+    background-color: #fefefe;
+    overflow: hidden;
+    border-radius: 30px;
+    cursor: pointer;
+}
+.product-main img{
+    transition: all .3s;
+}
+.product-main img:hover{
+    transform: scale(1.2);
 }
 
 /* section03 */
@@ -244,7 +183,6 @@ nav img{
     padding: 300px 0;
 }
 .brand h2{
-    /* font-weight: 300; */
     letter-spacing: 0.5px;
     padding: 20px 0;
 }
@@ -529,4 +467,5 @@ nav img{
         font-size: 0.875rem;
         line-height: 18px;
     }
+    
 }

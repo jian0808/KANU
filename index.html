@@ -5,8 +5,8 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>KANU</title>
-    <!-- slick js-->
-    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"/>
+    <!-- swiper js -->    
+    <link rel="stylesheet" href="https://unpkg.com/swiper@7/swiper-bundle.min.css"/>
     <!-- xeicon -->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/xeicon@2.3.3/xeicon.min.css">
     <!-- main css -->
@@ -44,7 +44,7 @@
     </section>
 
     <!-- section02 -->
-    <section class="section02" id="section02">
+    <section class="section02">
         <div class="container">
             <div class="row col-center wrap">
                 <div class="products_text">
@@ -57,9 +57,10 @@
                     </ul>
                 </div>
             </div>
-            <div class="slider">
-                <div class="tab-slider">
-                    <div class="americano">
+            <!-- Swiper -->
+            <div class="swiper mySwiper">
+                <div class="swiper-wrapper americano">
+                    <div class="swiper-slide">
                         <div class="col-100 pd-padding">
                             <div class="product-main">
                                 <img src="assets/images/products_a01.png" alt="">
@@ -67,32 +68,39 @@
                             <div class="name text-center">
                                 <h2>맥심 카누<br>마일드로스트 아메리카노</h2>
                             </div>
-                        </div> 
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
                         <div class="col-100 pd-padding">
                             <div class="product-main">
                                 <img src="assets/images/products_a02.png" alt="">
                             </div>
                             <div class="name text-center">
-                                <h2>맥심 카누<br>다크로스트 아메리카노</h2>
+                                <h2>맥심 카누<br>마일드로스트 아메리카노</h2>
                             </div>
-                        </div> 
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
                         <div class="col-100 pd-padding">
                             <div class="product-main">
                                 <img src="assets/images/products_a03.png" alt="">
                             </div>
                             <div class="name text-center">
-                                <h2>맥심 카누<br>다크로스트 스위트 아메리카노</h2>
+                                <h2>맥심 카누<br>마일드로스트 아메리카노</h2>
                             </div>
-                        </div>   
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
                         <div class="col-100 pd-padding">
                             <div class="product-main">
                                 <img src="assets/images/products_a04.png" alt="">
                             </div>
                             <div class="name text-center">
-                                <h2>맥심 카누<br>디카페인 아메리카노</h2>
+                                <h2>맥심 카누<br>마일드로스트 아메리카노</h2>
                             </div>
-                        </div> 
-        
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
                         <div class="col-100 pd-padding">
                             <div class="product-main">
                                 <img src="assets/images/products_a05.png" alt="">
@@ -100,105 +108,134 @@
                             <div class="name text-center">
                                 <h2>맥심 카누<br>마일드로스트 아메리카노</h2>
                             </div>
-                        </div> 
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
                         <div class="col-100 pd-padding">
                             <div class="product-main">
                                 <img src="assets/images/products_a06.png" alt="">
                             </div>
                             <div class="name text-center">
-                                <h2>맥심 카누<br>다크로스트 아메리카노</h2>
+                                <h2>맥심 카누<br>마일드로스트 아메리카노</h2>
                             </div>
-                        </div> 
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
                         <div class="col-100 pd-padding">
                             <div class="product-main">
                                 <img src="assets/images/products_a07.png" alt="">
                             </div>
                             <div class="name text-center">
-                                <h2>맥심 카누<br>다크로스트 스위트 아메리카노</h2>
+                                <h2>맥심 카누<br>마일드로스트 아메리카노</h2>
                             </div>
-                        </div>   
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
                         <div class="col-100 pd-padding">
                             <div class="product-main">
                                 <img src="assets/images/products_a08.png" alt="">
                             </div>
                             <div class="name text-center">
-                                <h2>맥심 카누<br>디카페인 아메리카노</h2>
+                                <h2>맥심 카누<br>마일드로스트 아메리카노</h2>
                             </div>
-                        </div>                                
-                    </div>
-                </div>
-                <div class="tab-slider">
-                    <div class="latte">
+                        </div>
+                    </div>                  
+                </div>                                                 
+                <div class="swiper-button-next"></div>
+                <div class="swiper-button-prev"></div>
+                <div class="swiper-pagination"></div>
+            </div>
+
+            <div class="swiper mySwiper">
+                <div class="swiper-wrapper latte">
+                    <div class="swiper-slide">
                         <div class="col-100 pd-padding">
                             <div class="product-main">
                                 <img src="assets/images/products_latte01.png" alt="">
                             </div>
                             <div class="name text-center">
-                                <h2>맥심 카누<br>라떼</h2>
+                                <h2>맥심 카누<br>마일드로스트 아메리카노</h2>
                             </div>
-                        </div> 
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
                         <div class="col-100 pd-padding">
                             <div class="product-main">
                                 <img src="assets/images/products_latte02.png" alt="">
                             </div>
                             <div class="name text-center">
-                                <h2>맥심 카누<br>더블샷 라떼</h2>
+                                <h2>맥심 카누<br>마일드로스트 아메리카노</h2>
                             </div>
-                        </div> 
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
                         <div class="col-100 pd-padding">
                             <div class="product-main">
                                 <img src="assets/images/products_latte03.png" alt="">
                             </div>
                             <div class="name text-center">
-                                <h2>맥심 카누<br>민트초코 라떼</h2>
+                                <h2>맥심 카누<br>마일드로스트 아메리카노</h2>
                             </div>
-                        </div>   
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
                         <div class="col-100 pd-padding">
                             <div class="product-main">
                                 <img src="assets/images/products_latte04.png" alt="">
                             </div>
                             <div class="name text-center">
-                                <h2>맥심 카누<br>디카페인 라떼</h2>
+                                <h2>맥심 카누<br>마일드로스트 아메리카노</h2>
                             </div>
-                        </div> 
-        
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
                         <div class="col-100 pd-padding">
                             <div class="product-main">
                                 <img src="assets/images/products_latte05.png" alt="">
                             </div>
                             <div class="name text-center">
-                                <h2>맥심 카누<br>돌체라떼</h2>
+                                <h2>맥심 카누<br>마일드로스트 아메리카노</h2>
                             </div>
-                        </div> 
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
                         <div class="col-100 pd-padding">
                             <div class="product-main">
                                 <img src="assets/images/products_latte06.png" alt="">
                             </div>
                             <div class="name text-center">
-                                <h2>맥심 카누<br>티라미수 라떼</h2>
+                                <h2>맥심 카누<br>마일드로스트 아메리카노</h2>
                             </div>
-                        </div> 
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
                         <div class="col-100 pd-padding">
                             <div class="product-main">
                                 <img src="assets/images/products_latte07.png" alt="">
                             </div>
                             <div class="name text-center">
-                                <h2>맥심 카누<br>바닐라 라떼</h2>
+                                <h2>맥심 카누<br>마일드로스트 아메리카노</h2>
                             </div>
-                        </div>   
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
                         <div class="col-100 pd-padding">
                             <div class="product-main">
                                 <img src="assets/images/products_latte08.png" alt="">
                             </div>
                             <div class="name text-center">
-                                <h2>맥심 카누<br>아이스라떼</h2>
+                                <h2>맥심 카누<br>마일드로스트 아메리카노</h2>
                             </div>
-                        </div>                                
-                    </div>  
-                </div>                             
-            </div>         
-        </div>
+                        </div>
+                    </div>                  
+                </div>                                                  
+                <div class="swiper-button-next"></div>
+                <div class="swiper-button-prev"></div>
+                <div class="swiper-pagination"></div>
+            </div>
+        </div>        
     </section>
+    
 
     <!-- section03 -->
     <section class="section03" id="section03">        
@@ -265,6 +302,8 @@
         </div>        
     </section>
 
+    
+
     <!--modal-pop -->
     <div class="modal-pop video01 row text-center">
         <iframe width="1280" height="720" src="https://www.youtube.com/embed/XkB9-aPqmYA?list=PLb_S7CUUNopOgWQabW5pHZJeObUkSoQu8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>            
@@ -277,8 +316,8 @@
 
     <!-- jquery 3.2.1 -->
     <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
-    <!-- slick js -->
-    <script type="text/javascript" src="assets/js/slick.min.js"></script>  
+    <!-- swiper js -->
+    <script src="assets/js/swiper-bundle.min.js"></script>
     <!-- main js -->
     <script src="assets/js/main.js"></script>    
 </body>
