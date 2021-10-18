@@ -1,5 +1,5 @@
 // header
-$('.xi-bars').click(function(){
+$('.goust-btn').click(function(){
     $('.gnb').slideToggle();
 });
 
@@ -17,27 +17,21 @@ $('.tab02').click(function(){
     $('.tab01').css('border-bottom','none');        
 });
 
-$('.americano').slick({
-    infinite: true,
-    slidesToShow: 4,
-    slidesToScroll: 1,
-    responsive: [
-        {breakpoint: 768,
-        settings: {
-            slidesToShow: 2,
-            slidesToScroll: 1
-        }}]    
-});
-$('.latte').slick({
-    infinite: true,
-    slidesToShow: 4,
-    slidesToScroll: 1,
-    responsive: [
-        {breakpoint: 768,
-        settings: {
-            slidesToShow: 2,
-            slidesToScroll: 1
-        }}]
+// swiper
+var swiper = new Swiper(".mySwiper", {
+    slidesPerView: 4,
+    spaceBetween: 30,
+    slidesPerGroup: 2,
+    loop: true,
+    loopFillGroupWithBlank: true,        
+    pagination: {
+      el: ".swiper-pagination",
+      clickable: true,
+    },
+    navigation: {
+      nextEl: ".swiper-button-next",
+      prevEl: ".swiper-button-prev",
+    },
 });
 
 // section05
