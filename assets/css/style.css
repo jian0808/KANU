@@ -254,11 +254,6 @@ nav img{
         width: 100% !important;
     }
 }
-@media (min-width: 1024px){
-    .gnb{
-        display: flex !important;
-    }
-}
 @media (max-width: 1025px){
     /* 헤더 */
     .gnb{
@@ -306,6 +301,11 @@ nav img{
         padding: 240px 0;
     }
 }
+@media (min-width: 1024px){
+    .gnb{
+        display: flex !important;
+    }
+}
 @media (max-width: 769px){
     .kanu-title {
         font-size: 3.5rem;
@@ -318,18 +318,9 @@ nav img{
         display: none;
     }
     /* section02 */
-    .americano .col-25{
-        width: 50%;
-    }
-    .americano{
-        flex-wrap: wrap;
-    }  
     .section02 .tab li {
         padding: 15px;
     }  
-    .latte .col-100{
-        width: 50%;
-    }
     /* section04 */
     .brand img {
         width: 250px;

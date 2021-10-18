@@ -21,7 +21,7 @@ $('.tab02').click(function(){
 var swiper = new Swiper(".mySwiper", {
     slidesPerView: 4,
     spaceBetween: 30,
-    slidesPerGroup: 2,
+    slidesPerGroup: 4,
     loop: true,
     loopFillGroupWithBlank: true,        
     pagination: {
@@ -32,6 +32,16 @@ var swiper = new Swiper(".mySwiper", {
       nextEl: ".swiper-button-next",
       prevEl: ".swiper-button-prev",
     },
+    breakpoints: { 
+        280: { 
+            slidesPerView: 2, 
+            spaceBetween: 20 
+        }, 
+        1024: { 
+            slidesPerView: 4,
+            spaceBetween: 30 
+        } 
+    }
 });
 
 // section05
