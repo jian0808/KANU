@@ -133,6 +133,7 @@ nav img{
     background-color: #333;
     padding: 150px 0;
     position: relative;
+    width: 100%;
 }
 .sec03-title{
     color: #fff;
@@ -161,7 +162,7 @@ nav img{
 }
 
 /* .modal-pop */
-.modal-pop{
+/* .modal-pop{
     position: fixed;
     width: 100%;
     height: 100%;
@@ -171,8 +172,48 @@ nav img{
     display: none;
     z-index: 99;
     padding: 150px 0;
+} */
+
+.modal-pop{
+    position: fixed;
+    width: 1280px;
+    height: 100%;
+    top: 0;
+    left:50%;
+    transform: translateX(-50%);
+    /* background-color: rgba(0,0,0,.7); */
+    /* display: none; */
+    z-index: 99;
+    padding: 150px 0;
+}
+.modal-bg{
+    position: fixed;
+    top: 0;
+    left:50%;
+    transform: translateX(-50%);
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0,0,0,.5);
+    z-index: 90;
+    /* display: none; */
+}
+.video-wrapper{
+    position : relative;        
+    width: 100%;        
+    height : 0;        
+    padding-bottom : 56.25%;  
+}
+.modal-pop iframe{
+    position : absolute;        
+    top : 0;        
+    left : 0;        
+    width : 100%;        
+    height : 100%;   
 }
 .xi-close{
+    position: absolute;
+    top: -40px;
+    right: 10px;
     font-size: 2rem;
     color: #fff;
     cursor: pointer;
@@ -207,7 +248,7 @@ nav img{
 
 /* section05 */
 .section05{
-    padding: 150px 0;
+    padding: 120px 0;
 }
 .point{
     margin-top: 40px;
@@ -256,10 +297,30 @@ nav img{
     line-height: 18px;
 }
 
+/* 푸터 */
+footer{
+    width: 100%;
+    background: #e3e6e9;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 50px 0;
+}
+.add{
+    color: #999;
+    margin-left: 30px;
+}
+footer span{
+    font-weight: 600;
+}
+
 /* 미디어쿼리 */
 @media(max-width:1200px){
     .container{
         width: 100% !important;
+    }
+    .modal-pop{
+        width: 100%;
     }
 }
 @media (max-width: 1025px){
@@ -394,6 +455,13 @@ nav img{
     .point {
         margin-top: 30px;
     }
+    footer{
+        display: block;
+        text-align: center;
+    }
+    .add{
+        margin: 10px 0;
+    }
 }
 @media (max-width: 415px){
     nav img {
@@ -438,6 +506,10 @@ nav img{
         font-size: 1.5rem;
         padding-top: 10px;
     }
+    footer span{
+        display: inline-block;
+        padding-top: 5px;
+    }
 }
 @media (max-width: 376px){
     .section02 .tab li {
@@ -466,5 +538,4 @@ nav img{
         font-size: 0.875rem;
         line-height: 18px;
     }
-    
 }

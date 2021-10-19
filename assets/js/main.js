@@ -56,11 +56,16 @@ $(".point>li").mouseleave(function(){
 // modal-pop
 $('.v01').click(function(){
     $('.video01').fadeIn();
+    $('.modal-bg').fadeIn();
 });
 $('.v02').click(function(){
     $('.video02').fadeIn();
+    $('.modal-bg').fadeIn();
 });
 $('.xi-close').click(function(){
     $('.modal-pop').fadeOut();
+    $('.modal-bg').fadeOut();
 });
+
+
 
