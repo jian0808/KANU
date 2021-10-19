@@ -119,6 +119,14 @@ nav img{
 .product-main img:hover{
     transform: scale(1.2);
 }
+.swiper-button-next,
+.swiper-button-prev{
+    color: #eee;
+    top: 42%;
+}
+.swiper-button-next:after, .swiper-button-prev:after{
+    font-size: 2.5rem;
+}
 
 /* section03 */
 .section03{
