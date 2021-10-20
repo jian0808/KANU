@@ -272,7 +272,7 @@ nav img{
     background: url('../images/point_bg3.jpg') center;  
 }
 .text-bg{
-    background-color: #5a463a;
+    background-color: rgba(255,255,255,1);
     padding: 30px 25px;
     position: absolute;
     bottom: 0;    
