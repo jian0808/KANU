@@ -249,6 +249,9 @@ nav img{
 .section05{
     padding: 120px 0;
 }
+.section05 h2{
+    color: #fff;
+}
 .point{
     margin-top: 40px;
     flex-wrap: nowrap;
@@ -269,7 +272,7 @@ nav img{
     background: url('../images/point_bg3.jpg') center;  
 }
 .text-bg{
-    background-color: rgba(255, 255, 255, 1);
+    background-color: #5a463a;
     padding: 30px 25px;
     position: absolute;
     bottom: 0;    
