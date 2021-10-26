@@ -121,7 +121,7 @@ nav img{
 }
 .swiper-button-next,
 .swiper-button-prev{
-    color: #eee;
+    color: #ea0000;
     top: 42%;
 }
 .swiper-button-next:after, .swiper-button-prev:after{
@@ -362,7 +362,7 @@ footer span{
     .brand p {
         font-size: 1.125rem;
         line-height: 26px;
-        padding: 0 65px;
+        padding: 0 25px;
         font-weight: 200;
     }
     .brand p br{
@@ -446,7 +446,6 @@ footer span{
     }
     .brand p {
         font-size: 1rem;
-        padding: 0 40px;
         line-height: 20px;
     }    
     .text-bg h4 {
