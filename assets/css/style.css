@@ -321,6 +321,8 @@ footer span{
 @media(max-width:1200px){
     .container{
         width: 100% !important;
+        padding: 15px;
+        box-sizing: border-box;
     }
     .modal-pop{
         width: 100%;
@@ -469,6 +471,9 @@ footer span{
     nav img {
         width: 120px;
     }
+    .container{
+        padding: 10px;
+    }
     .section01 {
         padding-top: 70px;
     }
@@ -481,6 +486,10 @@ footer span{
     }
     .kanu-title {
         font-size: 1.875rem;
+    }
+    .swiper-button-next, .swiper-button-prev {
+        color: #ea0000;
+        top: 37%;
     }
     .name {
         font-size: 0.875rem;

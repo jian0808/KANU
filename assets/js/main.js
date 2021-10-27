@@ -1,3 +1,5 @@
+ AOS.init();
+
 // header
 $('.goust-btn').click(function(){
     $('.gnb').slideToggle();
